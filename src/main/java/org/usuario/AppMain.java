@@ -16,8 +16,8 @@ public class AppMain extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader();
         Parent root = fxmlLoader.load(new FileInputStream(pathMain));
 
-        Scene scene = new Scene(root, 500, 550);
-        stage.setTitle("Hello!");
+        Scene scene = new Scene(root, 600, 400); //altera o tamanho da tela
+        stage.setTitle("Hello!"); //titulo do projeto, da tela
         stage.setScene(scene);
         stage.show();
     }
